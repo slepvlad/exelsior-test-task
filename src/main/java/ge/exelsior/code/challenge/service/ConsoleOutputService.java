@@ -13,7 +13,7 @@ public class ConsoleOutputService implements OutputService {
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd.MM.yyyy");
     private static final String PRINT_STATISTIC_TEMPLATE =
             "\tTicker name = %s,\tdays = %s,\tmaximum price = %s,\tminimum price = %s%n";
-    private static final String PRINT_MOVING_AVERAGE_TEMPLATE = "\t%s\t%s%n";
+    private static final String PRINT_MOVING_AVERAGE_TEMPLATE = "\t%s: %s%n";
 
     private final StockService stockService;
 
